@@ -1,7 +1,7 @@
 <scheme name="MonoCode Panther" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">AndroidStudio</property>
-    <property name="ideVersion">2025.2.1.8</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2025.2.5.0.0</property>
     <property name="originalScheme">MonoCode Panther</property>
   </metaInfo>
   <colors>
@@ -9,7 +9,7 @@
     <option name="ANNOTATIONS_COLOR" value="8D9199" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="CED0D6" />
     <option name="CARET_COLOR" value="CED0D6" />
-    <option name="CARET_ROW_COLOR" value="26282E" />
+    <option name="CARET_ROW_COLOR" value="1F1F1F" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1E1F22" />
     <option name="DELETED_LINES_COLOR" value="868A91" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2B2D30" />
@@ -44,7 +44,7 @@
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="393B40" />
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="393B40" />
     <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="393B40" />
-    <option name="LINE_NUMBERS_COLOR" value="4B5059" />
+    <option name="LINE_NUMBERS_COLOR" value="C2C2C2" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="A1A3AB" />
     <option name="LOOKUP_COLOR" value="2B2D30" />
     <option name="METHOD_SEPARATORS_COLOR" value="43454A" />
@@ -717,7 +717,7 @@
         <option name="BACKGROUND" value="43454a" />
       </value>
     </option>
-    <option name="IntelliJComposableCallTextAttributes" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="IntelliJComposableCallTextAttributes" baseAttributes="" />
     <option name="JS.GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="ffde72" />
