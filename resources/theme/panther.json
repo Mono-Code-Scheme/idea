@@ -1,0 +1,12 @@
+{
+  "name": "MonoCode Panther",
+  "author": "MonoCode Color Scheme",
+  "dark": true,
+  "colors": {
+    "primaryRed": "#821010"
+  },
+  "ui": {
+    "Button.background": "primaryRed"
+  },
+  "editorScheme": "/theme/MonoCode_Panther.xml"
+}
