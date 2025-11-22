@@ -275,7 +275,7 @@
     },
     "RunWidget": {
       "foreground": "t0",
-      "iconColor": "n0",
+      "iconColor": "t0",
       "pressedBackground": "green",
       "stopBackground": "red"
     },
@@ -293,7 +293,7 @@
     },
     "SearchEverywhere": {
       "SearchField": {
-        "background": "n3"
+        "background": "n2"
       },
       "Tab": {
         "selectedBackground": "n2",
@@ -369,9 +369,51 @@
       "HeaderTab": {
         "hoverBackground": "n3",
         "inactiveUnderlineColor": "n3",
-        "underlineColor": "accent"
+        "underlineColor": "n3"
       },
       "background": "n1"
+    },
+    "Tree": {
+      "background": "p1",
+      "foreground": "t0",
+      "hoverBackground": "n3",
+      "modifiedItemForeground": "accent",
+      "selectionBackground": "n3",
+      "selectionInactiveBackground": "n3"
+    },
+    "UiDesigner": {
+      "Panel.background": "n1",
+      "Preview.background": "n1"
+    },
+    "ValidationTooltip": {
+      "errorBackground": "n1",
+      "errorBorderColor": "red",
+      "warningBackground": "n1",
+      "warningBorderColor": "orange"
+    },
+    "VersionControl": {
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "n3"
+        }
+      },
+      "GitLog": {
+        "headIconColor": "n3",
+        "localBranchIconColor": "green",
+        "otherIconColor": "t0",
+        "remoteBranchIconColor": "n3",
+        "tagIconColor": "accent"
+      },
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "n1",
+          "hoveredBackground": "n3",
+          "selectionInactiveBackground": "n3"
+        }
+      },
+      "RefLabel": {
+        "foreground": "t0"
+      }
     }
   },
   "icons": {

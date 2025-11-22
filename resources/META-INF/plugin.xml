@@ -10,15 +10,15 @@
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor url="https://github.com/Mono-Code-Scheme/idea">MonoCode</vendor>
 
     <idea-version since-build="251"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        Enter short description for your theme here.<br>
-        <em>most HTML tags may be used</em>
+        MonoCode Color Scheme for Jetbrains IDEs.
+        For now, it only supports Panther version and only the yellow accent.
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
