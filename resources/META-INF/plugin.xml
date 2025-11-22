@@ -32,6 +32,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="Panther" path="/theme/panther.json"/>
+        <themeProvider id="Panther" path="/theme/panther.theme.json"/>
     </extensions>
 </idea-plugin>

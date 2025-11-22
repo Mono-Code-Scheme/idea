@@ -1,0 +1,150 @@
+{
+  "name": "MonoCode Panther",
+  "author": "MonoCode Color Scheme",
+  "dark": true,
+  "colors": {
+    "accent": "#FFDE72",
+    "pink": "#FF72F6",
+    "purple": "#C272FF",
+    "blue": "#72BBFF",
+    "cyan": "#72E0FF",
+    "neon-green": "#72FF7B",
+    "green": "#A8FF72",
+    "yellow": "#FFDE72",
+    "orange": "#FFAD72",
+    "red": "#FF7272",
+    "n4": "#383838",
+    "n3": "#1F1F1F",
+    "n2": "#141414",
+    "n1": "#111111",
+    "n0": "#060606",
+    "t3": "#9F9F9F",
+    "t0": "#F2F2F2"
+  },
+  "ui": {
+    "*": {
+      "foreground": "t0",
+      "background": "n1",
+      "disabledBackground": "n2",
+      "inactiveBackground": "n4",
+      "selectionBackground": "n3",
+      "selectionInactiveBackground": "n3",
+      "separatorColor": "n3",
+      "borderColor": "n3",
+      "focusColor": "accent",
+      "infoForeground": "t0"
+    },
+    "ActionButton": {
+      "hoverBackground": "n3",
+      "pressedBackground": "n3"
+    },
+    "Banner": {
+      "errorBackground": "n4",
+      "infoBackground": "n4",
+      "successBackground": "n4",
+      "warningBackground": "n4"
+    },
+    "Bookmark": {
+      "Mnemonic": {
+        "iconForeground": "t0"
+      },
+      "MnemonicAssigned": {
+        "background": "n1",
+        "foreground": "t0"
+      },
+      "MnemonicAvailable": {},
+      "MnemonicCurrent": {
+        "background": "n1",
+        "foreground": "t0"
+      },
+      "iconBackground": "accentColor"
+    },
+    "Borders": {
+      "ContrastBorderColor": "n3",
+      "color": "n3"
+    },
+    "Button": {
+      "background": "n1",
+      "default": {
+        "endBackground": "accent",
+        "endBorderColor": "accent",
+        "focusColor": "accent",
+        "focusedBorderColor": "accent",
+        "foreground": "n0",
+        "startBackground": "accent",
+        "startBorderColor": "accent"
+      },
+      "disabledBorderColor": "n1",
+      "endBackground": "n1",
+      "endBorderColor": "n3",
+      "focusedBorderColor": "n1",
+      "foreground": "t0",
+      "startBackground": "n1",
+      "startBorderColor": "n3"
+    },
+    "ComboBox": {
+      "ArrowButton": {
+        "background": "n3",
+        "disabledIconColor": "t4",
+        "iconColor": "t0",
+        "nonEditableBackground": "n3"
+      },
+      "modifiedItemForeground": "n3",
+      "nonEditableBackground": "n3",
+      "selectionBackground": "n3"
+    },
+    "CompletionPopup": {
+      "matchForeground": "accent",
+      "selectionBackground": "n2",
+      "selectionInactiveBackground": "n2"
+    },
+    "Component": {
+      "borderColor": "n3",
+      "disabledBorderColor": "n1",
+      "errorFocusColor": "red",
+      "focusColor": "accent",
+      "focusedBorderColor": "n2",
+      "iconColor": "t0",
+      "inactiveErrorFocusColor": "red",
+      "inactiveWarningFocusColor": "yellow",
+      "warningFocusColor": "yellow",
+      "infoForeground": "subtext0"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#72BBFF",
+      "Actions.Green": "#A8FF72",
+      "Actions.Grey": "#383838",
+      "Actions.GreyInline": "#383838",
+      "Actions.GreyInline.Dark": "#383838",
+      "Actions.Red": "#FF7272",
+      "Actions.Yellow": "#FFDE72",
+      "Objects.BlackText": "#060606",
+      "Objects.Blue": "#72BBFF",
+      "Objects.Green": "#A8FF72",
+      "Objects.Grey": "#383838",
+      "Objects.Pink": "#FF72F6",
+      "Objects.Purple": "#C272FF",
+      "Objects.Red": "#FF7272",
+      "Objects.RedStatus": "#FF7272",
+      "Objects.Yellow": "#FFDE72",
+      "Objects.YellowDark": "#FFDE72",
+      "Checkbox.Background.Default": "#1F1F1F",
+      "Checkbox.Background.Default.Dark": "#1F1F1F",
+      "Checkbox.Background.Disabled": "#111111",
+      "Checkbox.Background.Disabled.Dark": "#111111",
+      "Checkbox.Background.Selected": "#FFDE72",
+      "Checkbox.Background.Selected.Dark": "#FFDE72",
+      "Checkbox.Border.Default": "#111111",
+      "Checkbox.Border.Disabled": "#111111",
+      "Checkbox.Border.Selected": "#111111",
+      "Checkbox.Foreground.Disabled": "#9F9F9F",
+      "Checkbox.Foreground.Disabled.Dark": "#9F9F9F",
+      "Checkbox.Foreground.Selected": "#060606",
+      "Checkbox.Foreground.Selected.Dark": "#060606",
+      "Tree.iconColor": "#F2F2F2"
+    }
+  },
+  "editorScheme": "/theme/MonoCode_Panther.xml"
+}
