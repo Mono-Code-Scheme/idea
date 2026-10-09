@@ -100,7 +100,7 @@
     },
     "CompletionPopup": {
       "matchForeground": "accent",
-      "selectionBackground": "n2",
+      "selectionBackground": "n3",
       "selectionInactiveBackground": "n2"
     },
     "Component": {

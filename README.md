@@ -5,6 +5,7 @@
   # Mono Code for Idea
 
   <div>
+      <img src="./lynx-preview.png" width="400">
       <img src="./panther-preview.png" width="400">
   </div>
 </div>
