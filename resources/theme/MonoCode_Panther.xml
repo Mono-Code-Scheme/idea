@@ -1,16 +1,16 @@
-<scheme name="MonoCode Panther copy" version="142" parent_scheme="Darcula">
+<scheme name="Mono Code Panther" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">idea</property>
-    <property name="ideVersion">2025.2.5.0.0</property>
-    <property name="originalScheme">MonoCode Panther copy</property>
+    <property name="ideVersion">2026.2.1.0.0</property>
+    <property name="originalScheme">Mono Code Panther</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="A8FF72" />
     <option name="ANNOTATIONS_COLOR" value="8D9199" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="CED0D6" />
-    <option name="CARET_COLOR" value="CED0D6" />
+    <option name="CARET_COLOR" value="F2F2F2" />
     <option name="CARET_ROW_COLOR" value="1F1F1F" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="141414" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="" />
     <option name="DELETED_LINES_COLOR" value="868A91" />
     <option name="DIAGRAM_ANNOTATION_EDGE" value="FFDE72" />
     <option name="DIAGRAM_BAD_EDGE" value="FFDE72" />
@@ -40,7 +40,7 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2B2D30" />
     <option name="DIFF_SEPARATOR_WAVE" value="F2F2F2" />
     <option name="DOCUMENTATION_COLOR" value="2B2D30" />
-    <option name="DOC_COMMENT_GUIDE" value="394D3F" />
+    <option name="DOC_COMMENT_GUIDE" value="A8FF72" />
     <option name="DOC_COMMENT_LINK" value="72BBFF" />
     <option name="ERROR_HINT" value="402929" />
     <option name="FILESTATUS_ADDED" value="73BD79" />
@@ -60,15 +60,15 @@
     <option name="FILESTATUS_addedOutside" value="73BD79" />
     <option name="FILESTATUS_changelistConflict" value="DE6A66" />
     <option name="FILEawdSTATUS_modifiedOutside" value="70AEFF" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="2B2D30" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="A8FF72" />
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="868A91" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="72BBFF" />
     <option name="INDENT_GUIDE" value="313438" />
     <option name="INFORMATION_HINT" value="2B2D30" />
-    <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="393B40" />
-    <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="393B40" />
-    <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="393B40" />
+    <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="383838" />
+    <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="383838" />
+    <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="383838" />
     <option name="JUPYTER.CARET_ROW_COLOR" value="383838" />
     <option name="JUPYTER.CELL_STRIPE_SELECTED_COLOR" value="72BBFF" />
     <option name="JUPYTER.CODE_CELL_BACKGROUND" value="383838" />
@@ -84,6 +84,7 @@
     <option name="PROMOTION_PANE" value="25324D" />
     <option name="QUESTION_HINT" value="25324D" />
     <option name="RECENT_LOCATIONS_SELECTION" value="2B2D30" />
+    <option name="REVIEW_CHANGED_LINES_COLOR" value="C272FF" />
     <option name="RIGHT_MARGIN_COLOR" value="393B40" />
     <option name="SELECTED_INDENT_GUIDE" value="666870" />
     <option name="ScrollBar.Mac.hoverThumbColor" value="FFFFFF4D" />
@@ -94,7 +95,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_4" value="242D42" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="22252E" />
     <option name="VISUAL_INDENT_GUIDE" value="2B2D30" />
-    <option name="WHITESPACES" value="6F737A" />
+    <option name="WHITESPACES" value="111111" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="FF7272" />
   </colors>
   <attributes>
@@ -158,31 +159,19 @@
         <option name="FOREGROUND" value="60606" />
       </value>
     </option>
-    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="72bbff" />
-      </value>
-    </option>
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT" baseAttributes="CONSOLE_BLUE_OUTPUT" />
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
         <option name="FOREGROUND" value="72bbff" />
       </value>
     </option>
-    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="72e0ff" />
-      </value>
-    </option>
+    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT" baseAttributes="CONSOLE_CYAN_OUTPUT" />
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
         <option name="FOREGROUND" value="72e0ff" />
       </value>
     </option>
-    <option name="CONSOLE_DARKGRAY_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="9f9f9f" />
-      </value>
-    </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT" baseAttributes="CONSOLE_GRAY_OUTPUT" />
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff7272" />
@@ -193,21 +182,13 @@
         <option name="FOREGROUND" value="9f9f9f" />
       </value>
     </option>
-    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="4fc414" />
-      </value>
-    </option>
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT" baseAttributes="CONSOLE_GREEN_OUTPUT" />
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
         <option name="FOREGROUND" value="a8ff72" />
       </value>
     </option>
-    <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="ed7eed" />
-      </value>
-    </option>
+    <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT" baseAttributes="CONSOLE_MAGENTA_OUTPUT" />
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff72f6" />
@@ -223,20 +204,14 @@
         <option name="EFFECT_COLOR" value="3d7a49" />
       </value>
     </option>
-    <option name="CONSOLE_RED_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="ff7272" />
-      </value>
-    </option>
+    <option name="CONSOLE_RED_BRIGHT_OUTPUT" baseAttributes="CONSOLE_RED_OUTPUT" />
     <option name="CONSOLE_RED_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff7272" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="f2f2f2" />
-      </value>
+      <value />
     </option>
     <option name="CONSOLE_USER_INPUT">
       <value>
@@ -249,11 +224,7 @@
         <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
-    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="e5bf00" />
-      </value>
-    </option>
+    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT" baseAttributes="CONSOLE_YELLOW_OUTPUT" />
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ffde72" />
@@ -427,13 +398,13 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="9f9f9f" />
+        <option name="FOREGROUND" value="ffad72" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="abadb3" />
+        <option name="FOREGROUND" value="c2c2c2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -456,12 +427,7 @@
         <option name="FOREGROUND" value="72bbff" />
       </value>
     </option>
-    <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="a8ff72" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="f2f2f2" />
@@ -519,12 +485,7 @@
         <option name="FOREGROUND" value="c2c2c2" />
       </value>
     </option>
-    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="f2f2f2" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="DEFAULT_REASSIGNED_PARAMETER">
       <value>
         <option name="FOREGROUND" value="ffad72" />
@@ -553,7 +514,7 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="FOREGROUND" value="bcbec4" />
+        <option name="FOREGROUND" value="c2c2c2" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
@@ -665,7 +626,7 @@
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
         <option name="EFFECT_COLOR" value="ffad72" />
-        <option name="ERROR_STRIPE_COLOR" value="b06100" />
+        <option name="ERROR_STRIPE_COLOR" value="ffad72" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -754,20 +715,20 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="9f9f9f" />
+        <option name="FOREGROUND" value="f2f2f2" />
         <option name="BACKGROUND" value="383838" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
-        <option name="FOREGROUND" value="83acfc" />
-        <option name="BACKGROUND" value="35538f" />
+        <option name="FOREGROUND" value="f2f2f2" />
+        <option name="BACKGROUND" value="383838" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
-        <option name="FOREGROUND" value="c9cbd6" />
-        <option name="BACKGROUND" value="43454a" />
+        <option name="FOREGROUND" value="f2f2f2" />
+        <option name="BACKGROUND" value="383838" />
       </value>
     </option>
     <option name="INLINE_STACK_FRAMES">
@@ -775,7 +736,7 @@
         <option name="BACKGROUND" value="ff72f6" />
       </value>
     </option>
-    <option name="IntelliJComposableCallTextAttributes" baseAttributes="" />
+    <option name="IntelliJComposableCallTextAttributes" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="JS.GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="ffde72" />
@@ -829,7 +790,7 @@
     </option>
     <option name="KOTLIN_SMART_CAST_RECEIVER">
       <value>
-        <option name="BACKGROUND" value="1a3b2d" />
+        <option name="FOREGROUND" value="72bbff" />
       </value>
     </option>
     <option name="KOTLIN_SMART_CAST_VALUE">
@@ -837,7 +798,7 @@
     </option>
     <option name="KOTLIN_SMART_CONSTANT">
       <value>
-        <option name="BACKGROUND" value="1a3b2d" />
+        <option name="FOREGROUND" value="ff72f6" />
       </value>
     </option>
     <option name="KOTLIN_TYPE_PARAMETER">
@@ -942,8 +903,9 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="43454a" />
+        <option name="BACKGROUND" value="1f1f1f" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="f2f2f2" />
       </value>
     </option>
     <option name="MATCHED_TAG_NAME">
