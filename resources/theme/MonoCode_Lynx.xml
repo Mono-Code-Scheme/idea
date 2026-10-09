@@ -149,6 +149,9 @@
         <option name="FOREGROUND" value="9a0074" />
       </value>
     </option>
+    <option name="CONSOLE_RANGE_TO_EXECUTE">
+      <value />
+    </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT" baseAttributes="CONSOLE_RED_OUTPUT" />
     <option name="CONSOLE_RED_OUTPUT">
       <value>
@@ -173,6 +176,22 @@
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
         <option name="FOREGROUND" value="9a7100" />
+      </value>
+    </option>
+    <option name="CSS.FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="679a" />
+      </value>
+    </option>
+    <option name="CSS.IDENT">
+      <value>
+        <option name="FOREGROUND" value="679a" />
+      </value>
+    </option>
+    <option name="CSS.IMPORTANT">
+      <value>
+        <option name="FOREGROUND" value="9a5200" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
@@ -586,6 +605,11 @@
       </value>
     </option>
     <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD" />
+    <option name="HTML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="679a" />
+      </value>
+    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="679a" />
@@ -678,6 +702,16 @@
         <option name="FOREGROUND" value="264eff" />
       </value>
     </option>
+    <option name="JSON.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="9a5200" />
+      </value>
+    </option>
+    <option name="JSON.VALID_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="9a5200" />
+      </value>
+    </option>
     <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
       <value>
         <option name="FOREGROUND" value="484848" />
@@ -758,7 +792,7 @@
     </option>
     <option name="MATCHED_TAG_NAME">
       <value>
-        <option name="BACKGROUND" value="c9ecec" />
+        <option name="BACKGROUND" value="d8d8d8" />
       </value>
     </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
@@ -793,13 +827,13 @@
         <option name="BACKGROUND" value="d8d8d8" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
-    <option name="STATIC_METHOD_ATTRIBUTES">
+    <option name="SQL_PARAMETER">
       <value>
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="9a5200" />
       </value>
     </option>
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="62009a" />
@@ -868,6 +902,11 @@
     <option name="XML_CUSTOM_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="8077" />
+      </value>
+    </option>
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="679a" />
       </value>
     </option>
     <option name="XPATH.FUNCTION">

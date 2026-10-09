@@ -200,9 +200,7 @@
       </value>
     </option>
     <option name="CONSOLE_RANGE_TO_EXECUTE">
-      <value>
-        <option name="EFFECT_COLOR" value="3d7a49" />
-      </value>
+      <value />
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT" baseAttributes="CONSOLE_RED_OUTPUT" />
     <option name="CONSOLE_RED_OUTPUT">
@@ -241,11 +239,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="CSS.URL">
-      <value>
-        <option name="FOREGROUND" value="5c92ff" />
-      </value>
-    </option>
+    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="72bbff" />
@@ -910,7 +904,7 @@
     </option>
     <option name="MATCHED_TAG_NAME">
       <value>
-        <option name="BACKGROUND" value="3f4045" />
+        <option name="BACKGROUND" value="383838" />
       </value>
     </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
@@ -959,6 +953,11 @@
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="383838" />
+      </value>
+    </option>
+    <option name="SQL_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="ffad72" />
       </value>
     </option>
     <option name="Static method access">
