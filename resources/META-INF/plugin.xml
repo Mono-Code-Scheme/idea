@@ -32,6 +32,10 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="Panther" path="/theme/panther.theme.json"/>
+        <themeProvider id="org.monocode.panther" path="/theme/panther.theme.json"/>
+        <themeProvider id="org.monocode.lynx" path="/theme/lynx.theme.json"/>
+
+        <bundledColorScheme id="org.monocode.panther.scheme" path="/theme/MonoCode_Panther"/>
+        <bundledColorScheme id="org.monocode.lynx.scheme" path="/theme/MonoCode_Lynx"/>
     </extensions>
 </idea-plugin>

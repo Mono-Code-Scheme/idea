@@ -15,5 +15,8 @@
 
 > Hopefully there will be a store link in the future so it will be even easier to download updates
 
+# Dev
+https://plugins.jetbrains.com/docs/intellij/setting-up-theme-environment.html
+
 # Maintainers
 🐈‍⬛ lighttigerXIV
